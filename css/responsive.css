@@ -1,0 +1,172 @@
+@media screen and (max-width:991px){
+
+
+    .header-navigation{
+        background-color: #000;
+          }
+        .header-counselor .header-link .heading-h3 a{
+          color: #fff;
+        }
+        .manu,.close{
+          display: block !important;
+        }
+        .manu a{
+          color: #fff;
+          
+        }
+        .header-navigation .header-link .ancores {
+          position: absolute;
+          background: rgb(0, 0, 0);
+          padding: 1em .5em;
+          top: 0;
+          width:30%;
+          right: 0;  
+          opacity: 0;
+          transform: translateX(100%);
+          transform-origin: 4px 0px;
+          transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                      background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                      opacity 0.55s ease;
+        }
+        
+        .manu_active{
+          opacity: 1 !important;
+          transform: translateX(0) !important;
+        }
+        
+        
+        
+        
+        .header-navigation .header-link .ancores ul{
+          display: block;
+          width: 80%;
+          margin: 0 auto;
+        }
+        
+        .header-navigation .header-link .ancores ul li a{
+          color: white;
+          padding: .5em 1em;
+          display: inline-block;
+        
+        }
+
+
+    .awesome-food-section .awesome-food-area{
+        grid-template-columns: repeat(1,1fr);
+        padding: 5em 0;
+    }
+    .food-lover-section .food-lover-box .food-lover-box-contant  .icon-contant p{
+        font-size: 18px;
+    }
+    .our-blogs-section .container .our-blogs-contant-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-blogs-section .container .our-blogs-contant-box .our-blogs-box .image-info .image{
+        width: 50%;
+        height: 300px;
+    }
+    .instagram-image-section .instagram-row-image{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:767px){
+    .helthy-cake-section .helthy-cake-contant h1{
+        font-size: 55px;
+    }
+    .awesome-food-section .awesome-food-area .awesome-food-contant{
+        margin-left: 0;
+    }
+    .cake-warity-section .cake-warity-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cake-warity-section .cake-warity-box .cake-warity-box-flex .cake-warity-box-info,
+    .cake-warity-section .cake-warity-box .cake-warity-contant{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .video-section .background-image{
+        width: 100%;
+        height:400px;
+        position: relative;
+    }
+    .video-section .background-image button.video-btn{
+       position: absolute;
+       top: 40%;
+       left: 40%;
+    }
+    .food-lover-section .heading h2{
+        font-size: 30px;
+    }
+    .food-lover-section .food-lover-box{
+        grid-template-columns: repeat(1,1fr);
+        border:  1px solid rgba(71, 71, 71, 0.5);
+       padding: 0;
+       margin: 50px 0;
+    }
+    .food-lover-section .food-lover-box .border-2,
+    .food-lover-section .food-lover-box .border-1{
+        border-top: none;
+    }
+    .food-lover-section .food-lover-box .border-3{
+        border-bottom: none;
+    }
+    .footer-section-are .footer-menu{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-blogs-section .container .our-blogs-contant-box .our-blogs-box .image-info{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-blogs-section .container .our-blogs-contant-box .our-blogs-box .image-info .image{
+        width: 100%;
+        height: 400px;
+    }
+    .footer-section-are  .footer-flex-area .footer-flex-area-contant h4{
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:581px){
+    .header-section  .header-top ul,
+    .header-section  .header-top .header-info-right a.call-btn{
+        display: none;
+    }
+    .helthy-cake-section .helthy-cake-contant{
+        padding: 50px 0;
+    }
+    .helthy-cake-section .helthy-cake-contant h1{
+        font-size: 35px;
+    }
+    .awesome-food-section .row h2{
+        font-size: 24px;
+        padding: 48px 0 20px;
+    }
+    .awesome-food-section .awesome-food-area{
+        gap: 0;
+    }
+    .our-blogs-section .container .our-blogs-contant-box .our-blogs-box .image-info .image{
+        width: 100%;
+        height: auto;
+    }
+    .our-blogs-section .container .our-blogs-contant-box .our-blogs-box .image-info .image-contant{
+        width: 100%;
+    }
+    .instagram-image-section .instagram-heading h2{
+        font-size: 24px;
+    }
+    .instagram-image-section .instagram-row-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-section-are  .footer-flex-area{
+        flex-wrap: wrap;
+    }
+    .our-blogs-section .container .our-blogs-contant-box .our-blogs-box .image-info{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
